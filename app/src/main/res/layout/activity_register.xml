@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO BIMBEL MATEMATIKA PAK RAJA"
+        android:textColor="#FF003377"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please register to continue!"
+        android:textColor="#FF003377"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/et_idBimbel"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Bimbel"
+        android:inputType="number"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_confirm"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_linkLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Got an account? Login here!"
+        android:textColor="@color/blue"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
